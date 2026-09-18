@@ -47,7 +47,6 @@ py_test(
     ],
     args = [
         "--import-mode=importlib",
-        "sortedcontainers/tests",
     ],
     imports = ["sortedcontainers"],
     legacy_create_init = False,
